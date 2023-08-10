@@ -1,0 +1,5 @@
+SELECT *
+ FROM `chromatic-craft-391320.Life_Health.Sleep_Data` 
+ WHERE Sleep_Disorder='Sleep Apnea' OR
+ Sleep_Disorder='Insomnia'
+ORDER BY Age 
